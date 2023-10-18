@@ -6,9 +6,9 @@ spec:
   generators:
   - list:
       elements:
-      - cluster: in-cluster
+      - cluster: in-cluster1
         url: https://github.com/demesameneshoa/argocdappset1.git
-      - cluster: in-cluster
+      - cluster: in-cluster2
         url: https://github.com/demesameneshoa/argoappset2.git
   template:
     metadata:
